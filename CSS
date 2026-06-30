@@ -1,0 +1,62 @@
+body {
+  background: #e0e0e0;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  font-family: 'Courier New', Courier, monospace; /* Wajib monospace biar rata */
+}
+
+.struk {
+  background: white;
+  width: 320px; /* Lebar kertas thermal */
+  padding: 10px 15px;
+  font-size: 12px;
+  line-height: 1.4;
+  color: #000;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 5px;
+}
+.header h2 {
+  margin: 0;
+  font-size: 22px;
+  font-weight: 900;
+  letter-spacing: 2px;
+}
+.header p {
+  margin: 0;
+}
+
+.logo-bca {
+  font-weight: bold;
+  color: blue;
+  font-size: 10px;
+}
+
+.garis {
+  border-top: 1px dashed #000;
+  margin: 5px 0;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between; /* Biar TERM# kiri, MERCH# kanan */
+}
+
+.total {
+  display: flex;
+  justify-content: space-between; /* Biar TOTAL kiri, Rp kanan */
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+.bold {
+  font-weight: bold;
+  font-size: 14px;
+}
+.center {
+  text-align: center;
+}
